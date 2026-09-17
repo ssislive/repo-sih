@@ -310,6 +310,8 @@ img {
 
     place-items: center;
 
+    overflow: hidden;
+
     border-radius: 9px;
 
     background: var(--dark);
@@ -321,6 +323,15 @@ img {
     font-weight: 800;
 
     letter-spacing: 1px;
+
+}
+
+.brand-mark img {
+
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
 
 }
 
